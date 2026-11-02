@@ -1,0 +1,24 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment files and virtual environments
+venv/
+env/
+.venv/
+.env
+
+# Streamlit local runtime state
+.streamlit/secrets.toml
+
+# Temporary data and local user uploads
+temp/
+tmp/
+*.log
+
+# Explicitly track deployment model artifacts
+!model/random_forest_model.pkl
+!model/scaler.pkl
